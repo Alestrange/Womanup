@@ -24,7 +24,6 @@ def main():
 def index():
     db_sess = db_session.create_session()
     user_loged = flask_login.current_user.is_authenticated
-    print(user_loged)
     return render_template("index.html", user_loged=user_loged)
 
 
@@ -83,7 +82,6 @@ def reqister():
 def tenders():
     db_sess = db_session.create_session()
     tenders = db_sess.query(Tenders)
-    print(tenders)
     return render_template('tenders.html', tenders=tenders)
 
 
