@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #C9D0DF;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: consolas;
+    font-size: 16pt;
+}
+span {
+    font-family: consolas;
+    font-size: 16pt;
+}
+
+#header {
+    margin: 0 2rem;
+    border-bottom: 2px solid #858585;
+    display: flex;
+    justify-content: space-between;
+}
+
+#product_name_text {
+    font-size: 30pt;
+    font-family: consolas;
+}
+
+#login_button {
+    border: none;
+    background-color: #C9D0DF;
+    font-size: 30pt;
+    margin-right: 20px;
+}
+
+#main_div_text {
+    font-size: 18pt;
+    padding: 0 0 0.5rem 0;
+    margin: 0 11px;
+    text-align: justify;
+}
+
+#main_div_frame {
+    margin-left: 15%;
+    display: flex;
+    /*justify-content: flex-start*/ 
+    width: 60%;
+    height: 60%;
+    background-color: white;
+}
+
+#footer {
+    display: flex;
+    padding: 1rem 1rem;
+    background-color: #343434;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#footer_inside {
+    color: white
+    
+}
+
+#footer_inside_halal {
+    padding: 0 0 1rem 0;
+
+}
+
+.gl_txt{
+    font-size: 24pt;
+    font-weight: bolder;
+    padding: 0 0 0.5rem 0;
+}
+
+.que_txt{
+    font-size: 20pt;
+    font-style: italic;
+    padding: 0 0 0.5rem 0;
+}
+
+.nr_txt{
+    padding: 0 0 1rem 0;
+}
+
+#big{
+    font-size: 44pt;
+}
+
+#kostil{
+    padding: 0 0 8% 0;
+    color: white;
+}
+
+.icon.icon-github-mark-small {
+    -webkit-mask-image: url(https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg);
+    mask-image: url(https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg);
+}
+
+.visually-hidden {
+    clip: rect(1px,1px,1px,1px)!important;
+    border: 0!important;
+    -webkit-clip-path: inset(50%)!important;
+    clip-path: inset(50%)!important;
+    height: 1px!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    padding: 0!important;
+    position: absolute!important;
+    white-space: nowrap!important;
+    width: 1px!important;
+}
+.tender_button{width: 500px; height: 100px;}
+.tender_button_text{font-size: 3rem;}

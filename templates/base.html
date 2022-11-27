@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div>
+        <div id = "header">
+            <a href = "/index">TenderExp</a>
+            {% if not user_loged%}
+                <div> <button id="login_button"><a  href = "/login"> Войти     </a></button>
+                <button id="register_button"><a  href = "/register"> Регистрация </a></button></div>
+            {% else %}
+                <button id="logout_button"><a  href = "/logout"> Выход </a>
+            {% endif %}
+        </div>
+            {% block content %}
+            {% endblock %}
+        <div id="footer">
+            <div id="footer_inside">
+                <div id="footer_inside_halal"><p>©Nonsenticus - команда энтузиастов. Вэб(ахуеть)-разработка</p></div>
+            <span>Связь:</span>
+            <a class="icon.icon-github-mark-small" href="https://github.com/myrzh/" target="_blank" rel="noopener noreferrer">
+                <span class="visually-hidden">Nonsenticus on GitHub</span>
+            </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
