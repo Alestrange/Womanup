@@ -9,14 +9,11 @@
         <div id = "header">
             <a id="product_name_text" href = "/index">TenderExp</a>
             {% if not user_loged%}
-                <div> <button id="login_button"><a  href = "/login"> Войти     </a></button>
+                <div> <button id="login_button"><a  href = "/login"> Войти </a></button>
                 <button id="login_button"><a  href = "/register"> Регистрация </a></button></div>
             {% else %}
                 <button id="login_button"><a  href = "/logout"> Выход </a>
             {% endif %}
-            <div align="center">
-                <div id="main_div_frame">
-             </div>
           </div>
         </div>
             {% block content %}
@@ -24,7 +21,8 @@
         <div id="footer">
             <div id="footer_inside">
                 <div id="footer_inside_halal"><p>©Nonsenticus - команда энтузиастов. Вэб-разработка</p></div>
-            <span>Связь: sobaka_ylibaka@gmail.com<</span>
+            <p>Контакт: sobaka_ylibaka@gmail.com   </p>
+            <span>tg: @myrzh</span>
             
             </a>
                 </div>

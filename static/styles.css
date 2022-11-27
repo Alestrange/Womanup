@@ -46,7 +46,7 @@ span {
 
 #main_div_frame {
     border-radius: 10px;
-    margin-left: 15%;
+    margin-left: 0%;
     display: flex;
     /*justify-content: flex-start*/ 
     width: 60%;
@@ -96,9 +96,9 @@ span {
     padding: 0 0 8% 0;
     color: white;
 }
-#kostil{
+#kostil_in{
     padding: 0 0 30% 0;
-    color: white;
+    color: #C9D0DF;
 }
 
 .icon.icon-github-mark-small {
