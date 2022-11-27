@@ -6,7 +6,7 @@ from .db_session import SqlAlchemyBase
 
 
 class Tenders(SqlAlchemyBase):
-    __tablename__ = 'recipes'
+    __tablename__ = 'tenders'
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True, autoincrement=True)
     name = sqlalchemy.Column(sqlalchemy.String, nullable=True)
     description = sqlalchemy.Column(sqlalchemy.String, nullable=True)

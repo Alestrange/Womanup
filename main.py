@@ -83,6 +83,7 @@ def reqister():
 def tenders():
     db_sess = db_session.create_session()
     tenders = db_sess.query(Tenders)
+    print(tenders)
     return render_template('tenders.html', tenders=tenders)
 
 
