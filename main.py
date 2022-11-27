@@ -3,7 +3,7 @@ from flask import Flask, render_template, redirect, request
 from data import db_session
 from forms.user import LoginForm, RegisterForm
 from data.users import User
-from data.tenders import Tenders
+from data.tenders import Tender
 from flask_login import LoginManager, login_user, login_required, logout_user
 import flask_login
 
@@ -81,7 +81,7 @@ def reqister():
 @app.route('/tenders', methods=['GET', 'POST'])
 def tenders():
     db_sess = db_session.create_session()
-    tenders = db_sess.query(Tenders)
+    tenders = db_sess.query(Tender)
     print(tenders)
     return render_template('tenders.html', tenders=tenders)
 
