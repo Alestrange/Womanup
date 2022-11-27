@@ -45,6 +45,7 @@ span {
 }
 
 #main_div_frame {
+    border-radius: 10px;
     margin-left: 15%;
     display: flex;
     /*justify-content: flex-start*/ 
