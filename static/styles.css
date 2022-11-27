@@ -96,6 +96,10 @@ span {
     padding: 0 0 8% 0;
     color: white;
 }
+#kostil{
+    padding: 0 0 30% 0;
+    color: white;
+}
 
 .icon.icon-github-mark-small {
     -webkit-mask-image: url(https://developer.mozilla.org/static/media/github-mark-small.348586b8904b950b8ea8.svg);
