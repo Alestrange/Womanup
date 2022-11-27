@@ -45,7 +45,7 @@ span {
 }
 
 #main_div_frame {
-    border-radius: 10px;
+    border-radius: 20px;
     margin-left: 0%;
     display: flex;
     /*justify-content: flex-start*/ 
@@ -93,11 +93,11 @@ span {
 }
 
 #kostil{
-    padding: 0 0 8% 0;
+    padding: 0 0 15% 0;
     color: white;
 }
 #kostil_in{
-    padding: 0 0 30% 0;
+    padding: 0 0 50% 0;
     color: #C9D0DF;
 }
 
